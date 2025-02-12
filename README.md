@@ -1,75 +1,96 @@
-<header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reality Shifting</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
 
-<!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
--->
+        #home {
+            background-color: #1e90ff;
+            color: white;
+            text-align: center;
+            padding: 50px;
+        }
 
-# GitHub Pages
+        #home h2 {
+            font-size: 36px;
+        }
 
-_Create a site or blog from your GitHub repositories with GitHub Pages._
+        #home p {
+            font-size: 20px;
+        }
 
-</header>
+        #home button {
+            background-color: #ff6347;
+            color: white;
+            padding: 10px 20px;
+            font-size: 18px;
+            border: none;
+            cursor: pointer;
+        }
 
-<!--
-  <<< Author notes: Course start >>>
-  Include start button, a note about Actions minutes,
-  and tell the learner why they should take the course.
--->
+        #home button:hover {
+            background-color: #ff4500;
+        }
 
-## Welcome
+        #script-templates {
+            padding: 20px;
+            background-color: #f7f7f7;
+            text-align: center;
+        }
 
-With GitHub Pages, you can host project blogs, documentation, resumes, portfolios, or any other static content you'd like. Your GitHub repository can easily become its own website. In this course, we'll show you how to set up your own site or blog using GitHub Pages.
+        #script-templates h2 {
+            color: #333;
+            font-size: 28px;
+        }
 
-- **Who is this for**: Beginners, students, project maintainers, small businesses.
-- **What you'll learn**: How to build a GitHub Pages site.
-- **What you'll build**: We'll build a simple GitHub Pages site with a blog. We'll use [Jekyll](https://jekyllrb.com), a static site generator.
-- **Prerequisites**: If you need to learn about branches, commits, and pull requests, take [Introduction to GitHub](https://github.com/skills/introduction-to-github) first.
-- **How long**: This course takes less than one hour to complete.
+        #script-templates ul {
+            list-style-type: none;
+            padding: 0;
+        }
 
-In this course, you will:
+        #script-templates ul li {
+            margin: 10px 0;
+        }
 
-1. Enable GitHub Pages
-2. Configure your site
-3. Customize your home page
-4. Create a blog post
-5. Merge your pull request
+        #script-templates ul li a {
+            text-decoration: none;
+            color: #007bff;
+            font-size: 18px;
+        }
 
-### How to start this course
+        #script-templates ul li a:hover {
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
 
-<!-- For start course, run in JavaScript:
-'https://github.com/new?' + new URLSearchParams({
-  template_owner: 'skills',
-  template_name: 'github-pages',
-  owner: '@me',
-  name: 'skills-github-pages',
-  description: 'My clone repository',
-  visibility: 'public',
-}).toString()
--->
+    <!-- Homepage Section -->
+    <section id="home">
+        <h2>Shift Your Reality, Your Way</h2>
+        <p>Design, plan, and enter your Desired Reality.</p>
+        <button onclick="window.location.href='#script-templates'">Begin Your Shift</button>
+    </section>
 
-[![start-course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=skills&template_name=github-pages&owner=%40me&name=skills-github-pages&description=My+clone+repository&visibility=public)
+    <!-- Script Templates Section -->
+    <section id="script-templates">
+        <h2>Choose a Script Template</h2>
+        <p>Select a template below to start creating your reality shifting script.</p>
+        <ul>
+            <li><a href="https://www.notion.com/templates/shifting-scripts?srsltid=AfmBOorU1QVsND5p7-J4P0LDG1tjzNWMSnC0M3kItlDq03CziWwKXMXR" target="_blank">Template 1: Shifting Scripts Collection</a></li>
+            <li><a href="https://sites.google.com/view/shiftingscriptsbykate/home" target="_blank">Template 2: Shifting Scripts by Kate</a></li>
+            <li><a href="https://www.pinterest.com/ideas/shifting-script-template-google-slides/950958056695/" target="_blank">Template 3: Shifting Script Template - Google Slides</a></li>
+            <!-- Add more templates here if needed -->
+        </ul>
+    </section>
 
-1. Right-click **Start course** and open the link in a new tab.
-2. In the new tab, most of the prompts will automatically fill in for you.
-   - For owner, choose your personal account or an organization to host the repository.
-   - We recommend creating a public repository, as private repositories will [use Actions minutes](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
-   - Scroll down and click the **Create repository** button at the bottom of the form.
-3. After your new repository is created, wait about 20 seconds, then refresh the page. Follow the step-by-step instructions in the new repository's README.
-
-<footer>
-
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
-
----
-
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
-
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
-
-</footer>
+</body>
+</html>
